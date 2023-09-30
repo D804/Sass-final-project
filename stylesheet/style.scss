@@ -1,0 +1,144 @@
+@import "reset";
+@import "general";
+@import "variable";
+
+body {
+    font-family: $font-style;
+}
+/*Header*/ 
+.header {
+    background-color: $header;
+}
+.nav {
+    a {
+        margin-right: 2rem;
+        font-size: 1.3rem;
+        color: $secondary;
+        &:hover {
+            color: tomato;
+        }
+    }
+}
+.bars {
+    display: none;
+}
+input {
+    display: none;
+}
+/*Hero*/ 
+.hero {
+    background-color: $primary;
+    
+}
+.heading-text {
+    color: $secondary;
+}
+/*About*/
+.About {
+    img {
+        border-radius: 1rem;
+    } 
+   
+} 
+/* Services*/
+.services {
+    background-color: $primary;
+} 
+.cart h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: $secondary;
+}
+/**/
+.service-btn {
+    text-align: end;
+} 
+
+.cart:hover {
+    transform: scale3d(1,1,1);
+}
+/*Pricing*/ 
+.pricing {
+    background-color: $primary;
+    h4 {
+        text-decoration: line-through;
+    }
+    .price-tag {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    }
+}
+.pricing-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: $secondary;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    background-color: $btn-style;
+}
+/*Team*/ 
+.team {
+    text-align: center;
+    h5 {
+        color: $tertiary;
+    }
+    h4 {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: $tertiary;
+
+    }
+  
+    
+}
+.icons-primary {
+    background-color: $header;
+    color: $secondary;
+}
+/*Our Work*/ 
+.Our-Work {
+ background-color:$primary;
+ 
+ 
+ h4 {
+    font-size: 2rem;
+    color: $secondary;
+    font-weight: 600;
+ }
+
+
+ }
+ /*Post*/
+ .post {
+    h4 {
+        color: $btn-style;
+        font-weight: 600;
+    }
+   
+    h3 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: $tertiary;
+    }
+
+ }
+ .post-para {
+    font-size: 1.4rem;
+    font-weight: 600;
+ }
+/*Footer*/
+.footer {
+    color: $secondary;
+    background-color: $footer;
+ a {
+    color: $secondary;
+    font-size: 1.2rem;
+ }
+}  
+
+
+ @import "mediaquery";
+

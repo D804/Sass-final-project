@@ -1,0 +1,127 @@
+@import "variable";
+/*Container*/ 
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+/*flex*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+} 
+.align {
+    align-items: center;
+}
+.flex-60 {
+    flex: 0 1 60%;
+   
+    
+}
+.flex-35 {
+    flex: 0 1 35%;
+   
+}
+.flex-45 {
+    flex: 0 1 45%;
+    
+}
+.flex-30 {
+    flex: 0 1 30%;
+}
+/*General style*/
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    line-height: 1.5;
+} 
+.font-size-primary {
+    font-size: 4rem;
+    font-weight: 600;
+}
+.subheading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: $tertiary;
+}
+.width-full {
+   
+    width: 100%;
+}
+.para {
+    font-size: 1.9rem;
+    font-weight: 500;
+    
+}
+.para-style {
+ color: $secondary;
+}
+.para-secondary {
+    color: $tertiary;
+}
+.para-primary {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.center {
+    text-align: center;
+}
+.border-img {
+    border: 6px solid #dadada;
+    
+}
+.img {
+    height: 60%;
+}
+
+.icons {
+    line-height: 2.7rem;
+    font-size: 1.2rem;
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+} 
+.border-shadow {
+    box-shadow: 5px 10px #888888;
+}
+/*margins And Paddings*/ 
+.padding {
+    padding: 1rem 0;
+}
+.padding-t-b{
+ padding: 4rem 0;
+
+}
+.margin-top {
+    margin-top: 1.5rem;
+} 
+.margin {
+    margin-top: 3rem;
+}
+.padding-t {
+    padding: 0.5rem 0;
+}
+/*Button*/ 
+.btn {
+    display: inline-block;
+    padding: 1rem;
+    color: $secondary;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 0.4rem;
+    
+}
+.primary-btn {
+    background-color: $primary;
+}
+.secondary-btn {
+    border: 2px solid white;
+    margin-left: 1rem;
+    
+}

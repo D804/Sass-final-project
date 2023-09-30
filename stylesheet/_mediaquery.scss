@@ -1,0 +1,61 @@
+@media screen and (max-width:768px) {
+    html {
+        font-size: 12px;
+    }
+    .flex {
+        display: block;
+    }
+    img {
+        margin: 1.5rem 0;
+    }
+    div:empty {
+        border: 1px solid $secondary;
+        margin: 1rem 0;
+    }
+    .header {
+        .bars{
+            font-size: 2rem;
+            color: $primary;
+            position: absolute;
+            right: 3rem;
+            top: 2.6rem;
+            z-index: 1;
+            display:block;
+            background-color: $secondary;
+            border-radius: 0.2rem;
+            padding: 0.5rem;
+          }
+          .nav {
+            display: none;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: #2d3d2fe6;
+          }
+          .active {
+            background-color:rgba(201, 198, 14, 0.753);
+          }
+          #toggle:checked ~ .nav {
+            display: inline-block; 
+          }
+        
+          #toggle{
+            display: none;
+            z-index: 1;
+          }
+          .nav a {
+            display: inline-block;
+            margin-top: 2rem;
+            margin-left: 50%;
+            color: $primary;
+            font-size: 1.6rem;
+            text-transform: capitalize;
+            padding: 5% 0;
+          }
+    }
+   
+}
